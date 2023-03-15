@@ -58,9 +58,9 @@ function preload() {
   strawberry = loadImage("images/strawberry.png");
   pineapple = loadImage("images/Pineapple.png");
   squirtle = loadImage("images/squirtle.png");
-  pokemonMusic = createAudio("sounds/background-music.wav");
+  pokemonMusic = createAudio("sounds/background-music.mp3");
   fruitsSound = createAudio("sounds/eat.wav");
-  gameOverSound = createAudio("sounds/game-over.wav");
+  gameOverSound = loadSound("sounds/game-over.wav");
 }
 
 function setup() {
@@ -72,13 +72,17 @@ function setup() {
     { img: strawberry, x: random(80, 650), y: -400, w: 50, h: 50 },
     { img: pineapple, x: random(80, 650), y: 0, w: 50, h: 50 },
   ];
-  //slider = createSlider(0, 1, 0.5, 0.01);
 }
 
 function draw() {
   //background Image
   image(backgroundImage, 0, 0, 700, 480);
   image(squirtle, 0, 370, 80, 90);
+
+  //highscore
+  textSize(20);
+  fill(0, 200, 0);
+  text(`Score: ${highScore}`, 580, 50);
 
   //water animation
   waterColorB++;
