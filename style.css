@@ -1,3 +1,8 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
 #start-button {
   background-color: #ba300a; /* Green */
   border: none;
@@ -7,7 +12,6 @@
   text-align: center;
   text-decoration: none;
   display: block;
-  align-self: center;
   font-size: 16px;
 }
 

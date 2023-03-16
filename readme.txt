@@ -4,7 +4,7 @@ Welcome to Pokemon Games!
 This game is free of charge.
 
 Game Description:
-Survival is the key to success. Health bar is displaayed on the top left corner and decreases over time if the Pokemon isn't fed.
+Survival is the key to success. Health bar is displayed on the top left corner and decreases over time if the Pokemon isn't fed.
 Make sure to collect fruits and evolve your Pokemon while avoiding the obstacles from the second evil Pokemon.
 
 Game Controls:
