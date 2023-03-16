@@ -100,7 +100,7 @@ function draw() {
   rect(water.x, water.y, water.w, water.h);
   water.x += 2;
   if (water.x > 700) {
-    water.x = 185;
+    water.x = 115;
   }
 
   //player Charmander
